@@ -1,0 +1,12 @@
+{"level":"info","message":"GET /add?num1=10&num2=2","service":"calculator-microservice"}
+{"level":"info","message":"New addition operation requested: 10 + 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /subtract?num1=10&num2=2","service":"calculator-microservice"}
+{"level":"info","message":"New subtraction operation requested: 10 - 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /multiply?num1=10&num2=2","service":"calculator-microservice"}
+{"level":"info","message":"New multiplication operation requested: 10 * 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /divide?num1=10&num2=2","service":"calculator-microservice"}
+{"level":"info","message":"New division operation requested: 10 / 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /divide?num1=10&num2=0","service":"calculator-microservice"}
+{"level":"error","message":"Cannot divide by zero.","service":"calculator-microservice"}
+{"level":"info","message":"GET /divide?num1=123&num2=abc","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide valid numbers.","service":"calculator-microservice"}
